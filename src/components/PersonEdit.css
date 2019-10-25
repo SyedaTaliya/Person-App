@@ -1,0 +1,7 @@
+.person-edit{
+    background-color: rgb(226, 218, 218);
+}
+
+.person-edit .group-button > * {
+    margin: 0.8em;
+    }

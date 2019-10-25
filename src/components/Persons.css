@@ -1,0 +1,37 @@
+.persons {
+  background-image: black;
+  height: 100vh;
+  width: auto;
+  left: calc(50% - 300px);
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  margin: 0px 0px;
+
+}
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 200px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  transition: 0.4s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-40px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  transition: 0.4s ease-out;
+}
+
+
+
+h1 {
+  color: white;
+}

@@ -1,0 +1,10 @@
+.person-info .group-button > * {
+margin: 0.8em;
+}
+
+
+.person-info {
+    font-weight: 300;
+    left: 20px;
+    top: 15px;
+  }
